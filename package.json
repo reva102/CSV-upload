@@ -4,6 +4,8 @@
   "description": "A Simple Node Js Application to Upload and View CSV files",
   "main": "index.js",
   "scripts": {
+    "build": "your-build-command-here",
+    "postinstall": "echo 'Build completed successfully'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
